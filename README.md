@@ -25,6 +25,6 @@ From the computer terminal or a Python IDE terminal:
 
 ## Screenshots of Terminal
 
-Solarized dark             |  Solarized Ocean
+Client Screenshot          |  Server Screenshot
 :-------------------------:|:-------------------------:
 ![Client Screenshot](https://github.com/coder-chick/ComputerNetworking/blob/main/UDPPingerClientScreenShot.png)  |  ![Server Screenshot](https://github.com/coder-chick/ComputerNetworking/blob/main/UDPPingerServerScreenShot.png)
