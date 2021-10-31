@@ -24,5 +24,7 @@ From the computer terminal or a Python IDE terminal:
 7. Screenshot of terminal from the Client --> "UDPPingerClientScreenShot.png"
 
 ## Screenshots of Terminal
-![Server Screenshot](https://github.com/coder-chick/ComputerNetworking/blob/main/UDPPingerServerScreenShot.png)
-![Client Screenshot](https://github.com/coder-chick/ComputerNetworking/blob/main/UDPPingerClientScreenShot.png)
+
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![Client Screenshot](https://github.com/coder-chick/ComputerNetworking/blob/main/UDPPingerClientScreenShot.png)  |  ![Server Screenshot](https://github.com/coder-chick/ComputerNetworking/blob/main/UDPPingerServerScreenShot.png)
