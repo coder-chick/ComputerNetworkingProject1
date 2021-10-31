@@ -12,9 +12,9 @@ From the computer terminal or a Python IDE terminal:
    * python UDPPingerClient.py localhost 15007
 
 # This project contains the following:
-1. The Server UDP Pinger Python code
-2. The Client UDP Pinger Python code
-3. The Project requirement document
-4. A document explaining the code
-5. Screenshot of terminal from the Server
-6. Screenshot of terminal from the Client
+1. The Server UDP Pinger Python code --> "UDPPingerServer.py"
+2. The Client UDP Pinger Python code --> "UDPPingerClient.py"
+3. The Project requirement document --> "CS5700ProgrammingProjectRequirements.pdf"
+4. A document explaining the code --> "CS5700Project1CodeExplanation.pdf"
+5. Screenshot of terminal from the Server --> "UDPPingerServerScreenShot.png"
+6. Screenshot of terminal from the Client --> "UDPPingerClientScreenShot.png"
