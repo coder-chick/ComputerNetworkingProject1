@@ -27,4 +27,4 @@ From the computer terminal or a Python IDE terminal:
 
 Client Screenshot          |  Server Screenshot
 :-------------------------:|:-------------------------:
-![Client Screenshot](https://github.com/coder-chick/ComputerNetworking/blob/main/UDPPingerClientScreenShot.png)  |  ![Server Screenshot](https://github.com/coder-chick/ComputerNetworking/blob/main/UDPPingerServerScreenShot.png)
+![Client Screenshot](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/UDPPingerClientScreenShot.png)  |  ![Server Screenshot](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/UDPPingerServerScreenShot.png)
