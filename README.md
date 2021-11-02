@@ -3,7 +3,7 @@ Course Materials from the Masters Computer Networking class CS5700 at Northeaste
 
 A socket programming for UDP in Python where datagram packets are sent and received between Server and Client. The server packet drop rate is simulated to be 30%.  The Round Trip Time (RTT) is calculated for 10 Pings and a proper socket timeout is implemented
 
-## This project contains the following:
+## This Project Contains the Following:
 1. README.md
 2. The Server UDP Pinger Python code --> "UDPPingerServer.py"
 3. The Client UDP Pinger Python code --> "UDPPingerClient.py"
@@ -14,14 +14,14 @@ A socket programming for UDP in Python where datagram packets are sent and recei
 8. Screenshot of terminal from the Server --> "Project1ServerPingsFromDifferentNetworks.png"
 9. Screenshot of terminal from the Client --> "Project1ClientPingsFromDifferentNetworks.png"
 
-## To Execute on the same network: 
+## To Execute on the Same Network: 
 From the computer terminal or command line:
 1. First run the server. In the terminal, enter:
    * python UDPPingerServer.py 15007
 2. Second, run the client. In the terminal, enter:
    * python UDPPingerClient.py localhost 15007
 
-## To Execute on 2 different networks/computers: 
+## To Execute on 2 Different Networks/Computers: 
 1. Turn Off Firewall of Server network
 2. Turn off Firewall of Client network
 3. From server network, find the IPv4 address
@@ -38,13 +38,13 @@ From the computer terminal or command line:
    * python UDPPingerClient.py <server's IPv4 address> 15007
  
 
-## Screenshots of Terminal from same network
+## Screenshots of Terminal from Same Network
 
 Client Screenshot          |  Server Screenshot
 :-------------------------:|:-------------------------:
 ![Client Screenshot](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/UDPPingerClientScreenShot.png)  |  ![Server Screenshot](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/UDPPingerServerScreenShot.png)
 
-## Screenshots of Terminal from different network
+## Screenshots of Terminal from Different Networks
 
 Client Screenshot from Different Network          |  Server Screenshot from Different Network
 :-------------------------:|:-------------------------:
