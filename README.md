@@ -6,13 +6,29 @@ A socket programming for UDP in Python where datagram packets are sent and recei
 ## Author:
 * Semaa Amin
 
-## To Execute: 
+## To Execute on the same network: 
 From the computer terminal or a Python IDE terminal:
 
 1. First run the server. In the terminal, enter:
    * python UDPPingerServer.py 15007
 2. Second, run the client. In the terminal, enter:
    * python UDPPingerClient.py localhost 15007
+
+## To Execute on 2 different networks/computers: 
+1. Turn Off Firewall of Server network
+2. Turn off Firewall of Client network
+3. From server network, find the IPv4 address
+    * On a Mac, type "ipconfig getifaddr en0" in the terminal to find the IPv4
+    * On a Windows, type "ipconfig" from the Command Prompt(CMD)
+4. From the server network, edit the <UDPPingerServer.py> file to change the IP address in line 28 from 'localhost' to the Server's IPv4 that was found in step 3
+5. From the client network, edit the <UDPPingerClient.py> file to change the IP address in line 19 from 'localhost' to the Server's IPv4 address that was found in step 3
+
+From the computer terminal or command:
+
+6. Run the server. In the terminal, enter:
+   * python UDPPingerServer.py 15007
+7. Run the client. In the terminal, enter:
+   * python UDPPingerClient.py <server's IPv4 address> 15007
  
 ## This project contains the following:
 1. README.md
@@ -23,8 +39,14 @@ From the computer terminal or a Python IDE terminal:
 6. Screenshot of terminal from the Server --> "UDPPingerServerScreenShot.png"
 7. Screenshot of terminal from the Client --> "UDPPingerClientScreenShot.png"
 
-## Screenshots of Terminal
+## Screenshots of Terminal from same network
 
 Client Screenshot          |  Server Screenshot
 :-------------------------:|:-------------------------:
 ![Client Screenshot](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/UDPPingerClientScreenShot.png)  |  ![Server Screenshot](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/UDPPingerServerScreenShot.png)
+
+## Screenshots of Terminal from different network
+
+Client Screenshot          |  Server Screenshot
+:-------------------------:|:-------------------------:
+![Client Screenshot from Different Network](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/Project1ClientPingsFromDifferentNetworks.png)  |  ![Server Screenshot from Different Network](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/Project1ServerPingsFromDifferentNetworks.png)
