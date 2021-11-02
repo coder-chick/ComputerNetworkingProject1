@@ -3,9 +3,6 @@ Course Materials from the Masters Computer Networking class CS5700 at Northeaste
 
 A socket programming for UDP in Python where datagram packets are sent and received between Server and Client. The server packet drop rate is simulated to be 30%.  The Round Trip Time (RTT) is calculated for 10 Pings and a proper socket timeout is implemented
 
-## Author:
-* Semaa Amin
-
 ## To Execute on the same network: 
 From the computer terminal or a Python IDE terminal:
 
@@ -50,3 +47,8 @@ Client Screenshot          |  Server Screenshot
 Client Screenshot          |  Server Screenshot
 :-------------------------:|:-------------------------:
 ![Client Screenshot from Different Network](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/Project1ClientPingsFromDifferentNetworks.png)  |  ![Server Screenshot from Different Network](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/Project1ServerPingsFromDifferentNetworks.png)
+
+## Author:
+* Semaa Amin
+
+
