@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # UDPPingerClient.py
 # Group H: Semaa Amin, Sabarinathan Kulasekaran, Yifan Zhang
 # Sources: Textbook: Computer Networking: A Top-Down Approach; 8th edition; Kurose & Ross
