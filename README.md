@@ -11,10 +11,11 @@ A socket programming for UDP in Python where datagram packets are sent and recei
 5. A document explaining the code --> "CS5700Project1CodeExplanation.pdf"
 6. Screenshot of terminal from the Server --> "UDPPingerServerScreenShot.png"
 7. Screenshot of terminal from the Client --> "UDPPingerClientScreenShot.png"
+8. Screenshot of terminal from the Server --> "Project1ServerPingsFromDifferentNetworks.png"
+9. Screenshot of terminal from the Client --> "Project1ClientPingsFromDifferentNetworks.png"
 
 ## To Execute on the same network: 
-From the computer terminal or a Python IDE terminal:
-
+From the computer terminal or command line:
 1. First run the server. In the terminal, enter:
    * python UDPPingerServer.py 15007
 2. Second, run the client. In the terminal, enter:
@@ -29,7 +30,7 @@ From the computer terminal or a Python IDE terminal:
 4. From the server network, edit the <UDPPingerServer.py> file to change the IP address in line 28 from 'localhost' to the Server's IPv4 that was found in step 3
 5. From the client network, edit the <UDPPingerClient.py> file to change the IP address in line 19 from 'localhost' to the Server's IPv4 address that was found in step 3
 
-From the computer terminal or command:
+From the computer terminal or command line:
 
 6. Run the server. In the terminal, enter:
    * python UDPPingerServer.py 15007
@@ -45,7 +46,7 @@ Client Screenshot          |  Server Screenshot
 
 ## Screenshots of Terminal from different network
 
-Client Screenshot          |  Server Screenshot
+Client Screenshot from Different Network          |  Server Screenshot from Different Network
 :-------------------------:|:-------------------------:
 ![Client Screenshot from Different Network](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/Project1ClientPingsFromDifferentNetworks.png)  |  ![Server Screenshot from Different Network](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/Project1ServerPingsFromDifferentNetworks.png)
 
