@@ -13,6 +13,7 @@ A socket programming for UDP in Python where datagram packets are sent and recei
 7. Screenshot of terminal from the Client --> "UDPPingerClientScreenShot.png"
 8. Screenshot of terminal from the Server --> "Project1ServerPingsFromDifferentNetworks.png"
 9. Screenshot of terminal from the Client --> "Project1ClientPingsFromDifferentNetworks.png"
+10. License Permissions
 
 ## To Execute on the Same Network: 
 From the computer terminal or command line:
