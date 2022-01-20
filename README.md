@@ -52,6 +52,6 @@ Client Screenshot from Different Network          |  Server Screenshot from Diff
 ![Client Screenshot from Different Network](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/Project1ClientPingsFromDifferentNetworks.png)  |  ![Server Screenshot from Different Network](https://github.com/coder-chick/ComputerNetworkingProject1/blob/main/Project1ServerPingsFromDifferentNetworks.png)
 
 ## Authors:
-* Semaa Amin, Sabarinathan Kulasekaran, Yifan Zhang
+* Semaa Amin
 
 
